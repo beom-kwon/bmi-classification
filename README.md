@@ -7,7 +7,7 @@
 
 # Introduction
 
-In this web-page, we provide the MATLAB implementation of the ensemble model proposed in our paper "[Ensemble learning for skeleton-based body mass index classification](https://doi.org/10.3390/app10217812)." In this study, we performed skeleton-based body mass index (BMI) classification by developing a unique ensemble learning method for human healthcare. Traditionally, anthropometric features, including the average length of each body part and average height, have been utilized for BMI classification. Average values are generally calculated for all frames because the length of body parts and the subject height vary over time, as a result of the inaccuracy in pose estimation. Thus, traditionally, anthropometric features are measured over a long period. In contrast, we controlled the window used to measure anthropometric features over short/mid/long-term periods. This approach enables our proposed ensemble model to obtain robust and accurate BMI classification results. To produce final results, the proposed ensemble model utilizes multiple k-nearest neighbors (k-NN) classifiers trained using anthropometric features measured over several different time periods.
+In this web-page, we provide the MATLAB implementation of the ensemble model proposed in our paper "[Ensemble Learning for Skeleton-Based Body Mass Index Classification](https://doi.org/10.3390/app10217812)." In this study, we performed skeleton-based body mass index (BMI) classification by developing a unique ensemble learning method for human healthcare. Traditionally, anthropometric features, including the average length of each body part and average height, have been utilized for BMI classification. Average values are generally calculated for all frames because the length of body parts and the subject height vary over time, as a result of the inaccuracy in pose estimation. Thus, traditionally, anthropometric features are measured over a long period. In contrast, we controlled the window used to measure anthropometric features over short/mid/long-term periods. This approach enables our proposed ensemble model to obtain robust and accurate BMI classification results. To produce final results, the proposed ensemble model utilizes multiple k-nearest neighbors (k-NN) classifiers trained using anthropometric features measured over several different time periods.
 
 # Requirements
 
@@ -87,7 +87,7 @@ Please cite this paper in your publications if it helps your research.
 ```
 
 Paper link:
-* [Ensemble learning for skeleton-based body mass index classification](https://doi.org/10.3390/app10217812)
+* [Ensemble Learning for Skeleton-Based Body Mass Index Classification](https://doi.org/10.3390/app10217812)
 
 # Lincense
 
