@@ -75,14 +75,14 @@ Please cite this paper in your publications if it helps your research.
 
 ```  
 @article{kwon2020ensemble,
-  title={Ensemble learning for skeleton-based body mass index classification},
   author={Kwon, Beom and Lee, Sanghoon},
   journal={Applied Sciences},
+  title={Ensemble Learning for Skeleton-Based Body Mass Index Classification},  
+  year={2020},
   volume={10},
   number={21},
-  pages={7812},
-  year={2020},
-  publisher={MDPI}
+  pages={1-23},  
+  doi={10.3390/app10217812}
 }
 ```
 
