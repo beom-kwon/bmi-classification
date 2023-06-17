@@ -39,14 +39,14 @@ In the ensemble model, anthropometric feature vectors are calculated as averages
 Please run the script named 'step2_feature_extraction.m.'
 After executing the .m file, you will obtain the anthropometric feature vectors.
 
-## 5. k-fold Cross Validation
+## 5. k-fold Cross-Validation
 
-For assessing the performance of the proposed ensemble model, we used five-fold cross validation.
+For assessing the performance of the proposed ensemble model, we used five-fold cross-validation.
 To this end, we split the feature vectors into a training dataset and a testing dataset.
-In each cross validation fold, the 444 vectors were used for training the proposed model. 
+In each cross-validation fold, the 444 vectors were used for training the proposed model. 
 The remaining 111 (=555 − 444) vectors were used for testing the model.
 Please run the script named 'step3_cross_validation.m.'
-After executing the .m file, you will obtain the training and testing datasets that are used in each cross validation fold.
+After executing the .m file, you will obtain the training and testing datasets that are used in each cross-validation fold.
 
 ## 6. Hyperparameter Optimization
 The proposed ensemble model consists of multiple k-NN classifiers.
@@ -67,7 +67,7 @@ To derive a final classification result from the outputs of multiple k-NN classi
 Additionally, we calculated the confusion matrix based on the voting results.
 Using the confusion matrix, we calculated true positive rate (TPR), positive predictive value (PPV), F1-score, and accuracy.
 Please run the script named 'step6_majority_voting.m.'
-After executing the .m file, you will find the k-fold cross validation results of the ensemble model.
+After executing the .m file, you will find the k-fold cross-validation results of the ensemble model.
 
 # Citation
 
