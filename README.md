@@ -1,9 +1,9 @@
 # Contents
-1. [Introduction](Introduction)
-2. [Requirements](Requirements)
-3. [How to Run](How-to-Run)
-4. [Citation](Citation)
-5. [License](License)
+1. [Introduction](#introduction)
+2. [Requirements](#requirements)
+3. [How to Run](#how-to-run)
+4. [Citation](#citation)
+5. [License](#license)
 
 # Introduction
 
