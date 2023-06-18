@@ -89,6 +89,6 @@ Please cite this paper in your publications if it helps your research.
 Paper link:
 * [Ensemble Learning for Skeleton-Based Body Mass Index Classification](https://doi.org/10.3390/app10217812)
 
-# Lincense
+# License
 
 Our codes are freely available for non-commercial use.
