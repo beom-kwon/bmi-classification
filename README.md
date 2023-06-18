@@ -13,7 +13,7 @@ In this web page, we provide the MATLAB implementation of the ensemble model pro
 
 The proposed ensemble model was implemented using MATLAB R2018a. To implement the ensemble model, we used the MATLAB function 'fitcknn.' To this end, we used the 'Statistics and Machine Learning Toolbox.' Therefore, if you want to run our code, you need to install MATLAB on your computer. In addition, you also need to install the 'Statistics and Machine Learning Toolbox.'
 
-# How to run
+# How to Run
 
 ## 1. Dataset Preparation
 
