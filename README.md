@@ -22,7 +22,7 @@ The proposed ensemble model was implemented using MATLAB R2018a. To implement th
 * You also need to download the Gender and Body Mass Index (BMI) Data for the Kinect Gait Biometry Dataset.
 * If you want to download this BMI data, please click [here](https://www.researchgate.net/publication/308929259_Gender_and_Body_Mass_Index_BMI_Data_for_Kinect_Gait_Biometry_Dataset_-_data_from_164_individuals_walking_in_front_of_a_X-Box_360_Kinect_Sensor). You can then find the download link.
 
-## 2. Pre-processing
+## 2. Preprocessing
 
 The Kinect Gait Biometry Dataset consists of a total of 164 people. However, for only 112 of them, both the body weight and heights information are provided. Therefore, we excluded the skeleton sequences of 52 people, resulting in the dataset containing 112 people with five skeleton sequences each. However, for one individual, referred to as 'Person158,' only four sequences exist. To facilitate five-fold cross-validation, we decided to remove this individual from the dataset. Additionally, there are six sequences for the following four individuals: 'Person034,' 'Person036,' 'Person053,' and 'Person096.' After analyzing the six sequences for each of these individuals, we discarded the noisiest sequence for each person. Consequently, the first sequence for 'Person034,' the third sequence for 'Person036,' the fifth sequence for 'Person053,' and the sixth sequence for 'Person096' were excluded from the dataset. As a result, the final dataset comprised a total of 555 sequences (=111 people × 5 sequences per person).
 
@@ -39,7 +39,7 @@ In the ensemble model, anthropometric feature vectors are calculated as averages
 Please run the script named 'step2_feature_extraction.m.'
 After executing the .m file, you will obtain the anthropometric feature vectors.
 
-## 5. k-fold Cross-Validation
+## 5. k-Fold Cross-Validation
 
 For assessing the performance of the proposed ensemble model, we used five-fold cross-validation.
 To this end, we split the feature vectors into a training dataset and a testing dataset.
