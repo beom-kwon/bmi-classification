@@ -24,7 +24,7 @@ for fold = 1:1:k
     
             feature_vector_training = feature_vector(range_training,:);
             % If you want to apply SMOTE to training dataset
-%             feature_vector_training = SMOTE(feature_vector(range_training,:), 5);
+            % feature_vector_training = SMOTE(feature_vector(range_training,:), 5);
             
             save(training_data_name, 'feature_vector_training');
             
