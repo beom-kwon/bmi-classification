@@ -81,7 +81,7 @@ Please cite this paper in your publications if it helps your research.
   year={2020},
   volume={10},
   number={21},
-  pages={1-23},  
+  pages={1--23},  
   doi={10.3390/app10217812}
 }
 ```
