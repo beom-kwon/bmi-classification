@@ -17,7 +17,7 @@ The proposed ensemble model was implemented using MATLAB R2018a. To implement th
 
 ## 1. Dataset Preparation
 
-* We used the Kinect Gait Biometry Dataset - data from 164 individuals walking in front of a X-Box 360 Kinect Sensor.
+* We used the Kinect Gait Biometry Dataset - data from 164 individuals walking in front of an Xbox 360 Kinect Sensor.
 * If you want to download this dataset, please click [here](https://www.researchgate.net/publication/275023745_Kinect_Gait_Biometry_Dataset_-_data_from_164_individuals_walking_in_front_of_a_X-Box_360_Kinect_Sensor). You can then find the download link.
 * You also need to download the Gender and Body Mass Index (BMI) Data for the Kinect Gait Biometry Dataset.
 * If you want to download this BMI data, please click [here](https://www.researchgate.net/publication/308929259_Gender_and_Body_Mass_Index_BMI_Data_for_Kinect_Gait_Biometry_Dataset_-_data_from_164_individuals_walking_in_front_of_a_X-Box_360_Kinect_Sensor). You can then find the download link.
